@@ -982,14 +982,10 @@
 }
 .block-12 h1 {
   max-width: max-content;
-  margin: 0 auto;
+  margin: 0px auto 220px;
 }
 .block-12 .container {
   z-index: 2;
-}
-.block-12 .container .content .documents {
-  position: relative;
-  top: 350px;
 }
 .block-12 .container .content .documents img {
   width: 82%;
