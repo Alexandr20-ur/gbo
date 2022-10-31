@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="//atuin.ru/demo/ui-slider/jquery-ui.css">
     <!-- <link rel="stylesheet" href="css/jquery.parallax.css"> -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -108,32 +109,10 @@
                                 <div class="trig-txt">ГБО позволяет увеличить запас топлива при передвижении на дальних расстояниях</div>
                             </div>
                         </div>
-                        <!-- <div class="col-sm-4">
-                            <div class="trig-wrap">
-                                <a href="https://vk.com/doc-81485178_466744479?dl=7073f6840ca27763d5">
-                                <img src="img/doc.svg" alt="" class="trig">
-                                <div onclick="yaCounter44749336.reachGoal('click-full-packet-docs');" class="trig-title">Полный пакет документов</div>
-                                <div class="trig-txt">Наша компания подготовит для вас полный пакет документов для официальной регистрации вашего автомобиля в ГИБДД, кроме того, гарантируем полное сопровождение на всех этапах регистрации</div>
-                            	</a>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="partners-back">
-            <div class="partners-wrap">
-                <div class="container cont_2 progruz">
-                    <img src="img/tamona.svg" alt="" class="logo-par">
-                    <img src="img/digitronic.svg" alt="" class="logo-par mar_par">
-                    <img src="img/OMVL.svg" alt="" class="logo-par mar_par2">
-                    <img src="img/Lovato.svg" alt="" class="logo-par">
-                </div>
-            </div>
-        </div> -->
-
-
-
     </section>
 
 
@@ -504,153 +483,98 @@
         <img src="img/g4.png" alt="" class="gaika gaika4">
         <img src="img/g5.png" alt="" class="gaika gaika5">
         <h1>Оналайн-калькулятор <span>экономии топлива</span></h1>
-        <div class="row">
-            <div class="col">
-                <div class="row">
-                    <p><span>Метан</span></p>
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                      </label>
-                      <p>Пропан</p>
+        <form action="">
+            <div class="row metan">
+                <div class="col-8">
+                    <div class="row metan-propan">
+                        <h3><span>Метан</span></h3>
+                        <label class="switch">
+                            <input type="checkbox" name="gaz">
+                            <span class="slider round"></span>
+                        </label>
+                        <h3>Пропан</h3>
+                    </div>
                 </div>
-                <div class="row">
-
+                <div class="col">
+                <div class="row gazodizel">
+                <label class="checkbox">
+                    <input type="checkbox" name="gazodizel">
+                    <span class="checkmark"></span>
+                </label>
+                    <h3>Газодизель</h3>
                 </div>
-            </div>
-            <div class="col">
-                <div class="row">
-                    <input type="checkbox">
-                    <p>Газодизель</p>
-                </div>
-                
-            </div>
-        </div>
-          
-
-        </div>
-
-
-
-
-        <div class="row progruz calc-b-xs">
-            <div class="col-sm-6">
-                <p>Выберите количество цилиндров</p>
-                <select id="col-cil">
-                    <option value="1">4 цилиндра</option>
-                    <option value="2">6 цилиндров</option>
-                    <option value="3">8 цилиндров</option>
-                </select>
-            </div>
-            <div class="col-sm-6">
-                <p>Выберите производителя</p>
-                <select id="proiz1" class="proiz">
-                    <option value="27000" data-proiz="Tamona (4 цилиндра)">Tamona (от 27.000₽)</option>
-                    <option value="29000" data-proiz="Digitronic (4 цилиндра)">Digitronic (от 29.000₽)</option>
-                    <option value="29000" data-proiz="OMVL (4 цилиндра)">OMVL (от 29.000₽)</option>
-                    <option selected value="31000" data-proiz="Lovato (4 цилиндра)">Lovato (от 31.000₽)</option>
-                </select>
-
-                <select id="proiz2" class="proiz">
-                    <option value="30000" data-proiz="Tamona (6 цилиндров)">Tamona (от 30.000₽)</option>
-                    <option value="32000" data-proiz="Digitronic (6 цилиндров)">Digitronic (от 32.000₽)</option>
-                    <option value="34000" data-proiz="OMVL (6 цилиндров)">OMVL (от 34.000₽)</option>
-                    <option value="42000" data-proiz="Lovato (6 цилиндров)">Lovato (от 42.000₽)</option>
-                </select>
-
-                <select id="proiz3" class="proiz">
-                    <option value="45000" data-proiz="Digitronic (8 цилиндров)">Digitronic (от 45.000₽)</option>
-                    <option value="55000" data-proiz="Lovato (8 цилиндров)">Lovato (от 55.000₽)</option>
-                </select>
-
-            </div>
-
-
-        </div>
-
-
-
-
-        <p class="b2-calc-txt">выберите один из вариантов и рассчитайте окупаемость газового оборудования</p>
-
-        <div class="okup-b">
-            <div class="okup-title progruz">Окупаемость <span class="okup-name">Tamona (4 цилиндра)</span></div>
-            <div class="stoimost progruz">Стоимость ГБО: <span class="price">27000₽</span></div>
-            <div class="row progruz input-b">
-                <div class="col-md-3 col-sm-6">
-                    <p>Средний расход бензина на 100 км пробега:</p>
-                    <input value="10" type="text" class="my-inp rashod_inp">
-                    <span class="inp-span">литров</span>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <p>Средний месячный пробег вашего автомобиля:</p>
-                    <input value="2500" type="text" class="my-inp probeg_inp">
-                    <span class="inp-span">км</span>
-                </div>
-                <div class="col-md-3 col-sm-6 sm-2-line">
-                    <p>Цена одного литра бензина:</p>
-                    <input value="42" type="text" class="my-inp benz_inp">
-                    <span class="inp-span">рублей</span>
-                </div>
-                <div class="col-md-3 col-sm-6 sm-2-line">
-                    <p>Цена одного литра газа:</p>
-                    <input value="18" type="text" class="my-inp gaz_inp">
-                    <span class="inp-span">рублей</span>
                 </div>
             </div>
-
-            <hr class="blue_hr">
-
-            <div class="row result-b progruz">
-                <div class="col-md-3 col-sm-6">
-                    <p>Срок окупаемости:</p>
-                    <div class="result_txt"><span id="calc1"></span> месяцев</div>
+            <div class="row pashod">
+                <div class="col col-md-5 rashod1">
+                    <p>Расоход топлива, <span>литров на 100км</span></p>
+                    <div id="rashod" class="rashod">
+                        <div contentEdittable id="custom-rashod" class="ui-slider-handle rashod_inp my-inp"></div>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <p>Экономия со 100 км пробега:</p>
-                    <div class="result_txt"><span id="calc2"></span> ₽</div>
+                <div class="col">
+                    <p>Цена бензина, <span>руб.</span></p>
+                    <input type="text" placeholder="Введите цену" class="benz_inp my-inp">
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <p>За столько окупится ГБО:</p>
-                    <div class="result_txt"><span id="calc3"></span> км</div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <p>Экономия в месяц:</p>
-                    <div class="result_txt"><span id="calc4"></span> ₽</div>
+                <div class="col">
+                    <p>Цена Метана, <span>руб.</span></p>
+                    <input type="text" placeholder="Введите цену" class="gaz_inp my-inp">
                 </div>
             </div>
-            <div class="text-center progruz relat">
-                <div class="pop" id="modal2">
-                    <p>Оставьте свои контактные данные и мы перезвоним Вам в ближайшее время</p>
-                    <form id="form-order-inst-hbo" action="calc.php" method="post">
-                        <input type="text" required placeholder="Введите Ваше имя" name="name" class="inp-pop">
-                        <input type="tel" name="tel" required placeholder="И номер телефона" class="tel inp-pop">
-                        <input type="hidden" id="product" name="product">
-                        <input type="hidden" id="priceform" name="priceform">
-                        <input type="hidden" id="rashod" name="rashod">
-                        <input type="hidden" id="probeg" name="probeg">
-                        <input type="hidden" id="benz" name="benz">
-                        <input type="hidden" id="gaz" name="gaz">
-
-                        <button class="pop-btn">Заказать звонок</button>
-                    </form>
-                    <p style="margin: 11px 0 3px 0;" class="privacy_txt_pop">Нажимая кнопку «Заказать звонок» Вы соглашаетесь с <a target="_blank" href="soglashenie.html">условиями хранения и обработки персональных данных</a></p>
-
-                    <div class="text-center">
-                        <button id="button-order-inst-hbo" data-pop="#modal2" class="pop-btn-x pop-open">Отменить</button>
+            <div class="row probeg">
+                <div class="col probeg1">
+                    <p>Пробег за месяц</p>
+                    <div id="slider">
+                        <div id="custom-handle" class="ui-slider-handle probeg_inp my-inp"></div>
                     </div>
 
                 </div>
-                <button onclick="yaCounter44749336.reachGoal('click-order-inst-hbo');" class="btn1 pop-open" data-pop="#modal2">Заказать установку ГБО</button>
-
-
-
+                <div class="col price">
+                    <p>Цена ГБО, <span>руб.</span></p>
+                    <input type="text" placeholder="Введите цену">
+                </div>
             </div>
+        </form>
+        <div class="line"></div>
 
-
-
+        <div class="row itog">
+            <div class="col">
+                <p>Экономия в месяц:</p>
+                <span>6000</span>₽
+            </div>
+            <div class="col">
+                <p>Экономия в год:</p>
+                <span>6000</span>₽
+            </div>
+            <div class="col">
+                <p>Срок окупаемости:</p>
+                <span>5</span>мес.
+            </div>
         </div>
+        <div class="text-center progruz relat">
+                    <div class="pop" id="modal2">
+                        <p>Оставьте свои контактные данные и мы перезвоним Вам в ближайшее время</p>
+                        <form id="form-order-inst-hbo" action="calc.php" method="post">
+                            <input type="text" required="" placeholder="Введите Ваше имя" name="name" class="inp-pop">
+                            <input type="tel" name="tel" required="" placeholder="И номер телефона" class="tel inp-pop">
+                            <input type="hidden" id="product" name="product" value="Tamona (4 цилиндра)">
+                            <input type="hidden" id="priceform" name="priceform" value="27000₽">
+                            <input type="hidden" id="rashod" name="rashod" value="10">
+                            <input type="hidden" id="probeg" name="probeg" value="2500">
+                            <input type="hidden" id="benz" name="benz" value="42">
+                            <input type="hidden" id="gaz" name="gaz" value="18">
 
+                            <button class="pop-btn">Заказать звонок</button>
+                        </form>
+                      <p style="margin: 11px 0 3px 0;" class="privacy_txt_pop">Нажимая кнопку «Заказать звонок» Вы соглашаетесь с <a target="_blank" href="soglashenie.html">условиями хранения и обработки персональных данных</a></p>
+
+                        <div class="text-center">
+                            <button id="button-order-inst-hbo" data-pop="#modal2" class="pop-btn-x pop-open">Отменить</button>
+                        </div>
+
+                    </div>
+                    <button onclick="yaCounter44749336.reachGoal('click-order-inst-hbo');" class="btn1 pop-open" data-pop="#modal2">Заказать установку ГБО</button>
+                </div>
     </div>
 </section>
 
@@ -663,7 +587,6 @@
                 <h3><span>если у вас остались вопросы</span> <a onclick="yaCounter44749336.reachGoal('click-order-callback-medium');" class="zvon-a popup-with-move-anim" href="#small-dialog">закажите звонок</a></h3>
                 <div class="vopr-b">
                     Если установить на авто ГБО, то будет ли работать автомобиль на бензине?
-
                     <div class="otvet">Да, вы сможете использовать и бензин, и газ в качестве топлива. Переключатель с одного топлива на другой будет установлен в салоне вашего автотранспорта. </div>
                 </div>
                 <div class="vopr-b">
@@ -759,28 +682,28 @@
 
     <section class="block-12">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row sertificate">
                 <h1>Сертификаты</h1>
             </div>
             <div class="container">
                 <div class="row content">
                     <div class="row documents">
-                        <div>
+                        <div class="slider__items">
                             <img src="img/Документ23.jpg" alt="">
                         </div>
-                        <div>
+                        <div class="slider__items">
                             <img src="img/Документ24.jpg" alt="">
                         </div>
-                        <div>
+                        <div class="slider__items">
                             <img src="img/Документ25.jpg" alt="">
                         </div>
-                        <div>
+                        <div class="slider__items">
                             <img src="img/Документ26.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row polka"><img src="img/polka.png" alt=""></div>
+            <div class="row polka"><img src="img/polka1.png" alt=""></div>
 
         </div>
     
@@ -794,8 +717,7 @@
                     <img src="img/g7.png" alt="" class="gaika gaika7">
                     <h2>Газомоторные системы</h2>
                     <p>
-                        Компания «GMSistem Ижевск» является официальным представителем «Lovato», наше предприятие является командой профессионалов. Итальянская компания – мировой лидер, производящий максимальные объемы систем ГБО.<br><br>Также мы устанавливаем оборудование производителей Tamona, OMVL, Digitronic, Zavoli, BRC, Landi Renzo!
-                    </p>
+                    Компания  специализируется на оказании широкого спектра услуг по установке и обслуживанию ГБО, а также сопутствующим работам.                     </p>
                     <div class="b3-txt">Есть вопросы? Оставьте заявку на БЕСПЛАТНУЮ консультацию!</div>
                     <form id="form-order" action="zvon.php" method="post">
                         <input required type="text" placeholder="Введите Ваше имя" name="name" class="name-inp inp-form">
@@ -824,11 +746,88 @@
 
         </div>
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa308a2cd6a2d9cda030e77447deb211f1d67c1cef01a7e41e3d7b533cf94d7ec&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>
-
-
-
     </section>
-    <section id="block5"></section>
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="col left_content">
+                <div class="row">
+                    <div class="col logo">
+                        <h1>GMSistem</h1>
+                        <p>Газомоторные системы</p>
+                    </div>
+                </div>
+                <div class="row geo">
+                    <p>г. Ижевск, проезд Дзержинского, 3Б</p>
+                </div>
+                <div class="row time">
+                    <p>Ежедневно с 8-00 до 17-00</p>
+                </div>
+                <div class="row phone">
+                    <p>+7 (3412) 77-20-85</p>
+                    <a href="">Заказать звонок</a>
+                </div>
+                <div class="row vk">
+                    <img src="img/vk.png" alt="">
+                </div>
+                <div class="row copyright">
+                    <p>Copyright © GMSistem 2022 Все права защищены</p>
+                </div>
+            </div>
+            <div class="col">
+               <ul class="list">
+                <li class="list__main">Карты сайта</li>
+                <li class="list_body">Главная</li>  
+                <li class="list_body">Преимущества ГБО</li>
+                <li class="list_body">О нас</li>
+                <li class="list_body">Наши поставщики</li>
+                <li class="list_body">Наши Преимущества</li>
+                <li class="list_body">Установка ГБО на дизель</li>
+                <li class="list_body">Газпром</li>
+                <li class="list_body">Примеры установки ГБО</li>
+                <li class="list_body">Отзывы</li>
+                <li class="list_body">Оналайн-калькулятор</li>
+                <li class="list_body">Вопрос - ответ</li>
+                <li class="list_body">Сертификаты</li>
+                <li class="list_body">Газомоторные системы</li>
+                <li class="list_body">Карта</li>
+               </ul>
+            </div>
+            <div class="col">
+                <div class="forma">
+                    <div class="forma__content">
+                        <div class="row">
+                            <h3>Оставить заявку</h3>
+                        </div>
+                        <div class="row">
+                            <p>Если у вас возникли вопросы? Оставьте заявку на БЕСПЛАТНУЮ консультацию!</p>
+                        </div>
+                        <form action="calc.php" method="post">
+                        <div class="row">
+                            <input type="text" class="input" placeholder="Ваше имя">
+                        </div>
+                        <div class="row">
+                            <input type="text" class="input" placeholder="Номер телефона">                
+                        </div>
+                        <div class="row">
+                            <p>
+                            Нажимая кнопку "Отправить заявку" я даю согласие на <span>Обработку персональных данных.</span>
+                            </p>
+                        </div>
+                        <div class="row">
+                            <button class="btn" type="submit">Отправить заявку</button>
+                        </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+      
+        </div>
+    </section>
 
     <div class="modal fade" id="modal_konsul" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -873,12 +872,15 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://atuin.ru/demo/ui-slider/jquery-ui.min.js"></script>
+    
     <!-- <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.parallax.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.viewportchecker.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/main.js"></script> -->
+-->
+    <script src="js/main.js"></script>
 
     <script type="text/javascript">
         (function(d, w, c) {
