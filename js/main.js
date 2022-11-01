@@ -13,13 +13,6 @@ $( document ).ready(function() {
     });
 });
 
-//jQuery(document).ready(function() {
-//jQuery('.progruz').addClass("hid_a").viewportChecker({
-//classToAdd: 'vis_a animated fadeIn',
-//offset: 100
-//});
-//});
-
 $(document).ready(function() {
 	$('.popup-with-zoom-anim').magnificPopup({
 		type: 'inline',
@@ -93,29 +86,8 @@ $(".my-inp").change(function(){
 
 //Тут ведется подсчет
 function calc() {
-    var gbo = $(".b2-txt.active").data("price"),
-    //тут передаются данные
-        cb = $(".benz_inp").val(),
-        ras = $(".rashod_inp").html(),
-        cg = $(".gaz_inp").val(),
-        prob = $(".probeg_inp").html(),
-        calc1 = 0,
-        calc2 = 0,
-        calc3 = 0,
-        calc4 = 0;
-        var target = document.querySelector('#custom-rashod');
-        let data = '';
-        var observer = new MutationObserver((mutation) => {
-            data = mutation[1].addedNodes[0].data
-            console.log(data)
-        });
-        observer.observe(target,{
-            childList: true,    
-        })
-        console.log(data)
-
     if(window.matchMedia('(max-width: 992px)').matches) {
-        gbo = $(".active_pr :selected").val();
+        gbo = $(".price_gbo").val();
         if(gbo == null) {
             gbo = 29000;
         }
@@ -123,6 +95,7 @@ function calc() {
     calc1 = gbo / (ras/100 * prob * (cb - cg));
     calc2 = ras * (cb - cg);
     calc3 = gbo / (ras/100 * (cb - cg));
+    
     calc4 = ras/100 * prob * (cb - cg)
     $("#calc1").text(Math.floor(calc1));
     $("#calc2").text(Math.ceil(calc2));
@@ -161,7 +134,6 @@ $(function(){
 function dannie () {
     $("#product").val($(".okup-name").text());
     $("#priceform").val($(".price").text());
-    $("#rashod").val($(".rashod_inp").text());
     $("#probeg").val($(".probeg_inp").text());
     $("#benz").val($(".benz_inp").val());
     $("#gaz").val($(".gaz_inp").val());

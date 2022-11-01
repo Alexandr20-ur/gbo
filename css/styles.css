@@ -1182,7 +1182,7 @@
 }
 .block-10 .container .probeg .probeg1 .ui-slider .ui-slider-handle {
   outline: none;
-  padding-top: 14px;
+  padding: 13px 0;
   width: 55px;
   height: 55px;
   background: #5599EE;

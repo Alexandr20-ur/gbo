@@ -508,8 +508,8 @@
             <div class="row pashod">
                 <div class="col col-md-5 rashod1">
                     <p>Расоход топлива, <span>литров на 100км</span></p>
-                    <div id="rashod" class="rashod">
-                        <div contentEdittable id="custom-rashod" class="ui-slider-handle rashod_inp my-inp"></div>
+                    <div class="rashod">
+                        <div id="custom-rashod" class="ui-slider-handle rashod_inp my-inp"></div>
                     </div>
                 </div>
                 <div class="col">
@@ -524,14 +524,14 @@
             <div class="row probeg">
                 <div class="col probeg1">
                     <p>Пробег за месяц</p>
-                    <div id="slider">
+                    <div id="slider" class="probeg">
                         <div id="custom-handle" class="ui-slider-handle probeg_inp my-inp"></div>
                     </div>
 
                 </div>
                 <div class="col price">
                     <p>Цена ГБО, <span>руб.</span></p>
-                    <input type="text" placeholder="Введите цену">
+                    <input class="price_gbo" type="text" placeholder="Введите цену">
                 </div>
             </div>
         </form>
@@ -540,15 +540,15 @@
         <div class="row itog">
             <div class="col">
                 <p>Экономия в месяц:</p>
-                <span>6000</span>₽
+                <span id="calc1">6000</span>₽
             </div>
             <div class="col">
                 <p>Экономия в год:</p>
-                <span>6000</span>₽
+                <span id="calc2">6000</span>₽
             </div>
             <div class="col">
                 <p>Срок окупаемости:</p>
-                <span>5</span>мес.
+                <span id="calc3">5</span>мес.
             </div>
         </div>
         <div class="text-center progruz relat">

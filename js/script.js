@@ -107,6 +107,7 @@ $(document).ready(function() {
 //Скрипты за пуск слайдера с ползунками
 $(document).ready(function() {
     var handle = $("#custom-handle");
+    var probeg = $('#probeg');
 	$("#slider").slider({
         animate: "slow",
         range: "min",    
@@ -117,11 +118,17 @@ $(document).ready(function() {
 		},
 		slide: function(event, ui) {
 			handle.text( ui.value );
-		}
+		},
+        // Передаем значения в скрытый инпут
+        change: function(event, ui) {
+            probeg.val(ui.value);
+            calc();
+        }
 	});
     
     var rashod = $('#custom-rashod');
-    $("#rashod").slider({
+    var rashod_hidden = $('#rashod');
+    $(".rashod").slider({
         animate: "slow",
         range: "min",    
         min: 5,
@@ -131,6 +138,26 @@ $(document).ready(function() {
 		},
 		slide: function(event, ui) {
 			rashod.text( ui.value );
-		}
+		},
+        change: function(event, ui) {
+            rashod_hidden.val(ui.value)
+        }
 	});
+
+    function calc() {
+        var cb = $(".benz_inp").val(),
+        cg = $(".gaz_inp").val(),
+        prob = $(".probeg_inp").html(),
+        ras = rashod_hidden[0].value,
+        gbo = $(".price_gbo").val(),
+        calc1 = 0,
+        calc2 = 0,
+        calc3 = 0;
+        calc1 = ras/100 * prob * (cb - cg)
+        calc2 = calc1 * 12
+        calc3 = gbo / (ras/100 * prob * (cb - cg));
+        $("#calc2").text(Math.ceil(calc2)); //Экономия в год
+        $("#calc3").text(Math.floor(calc3)); //Окупаемость 
+        $("#calc1").text(Math.ceil(calc1)); //Экономия в месяц
+    }
 }); 
