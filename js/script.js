@@ -4,6 +4,7 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
+        draggable: false,
         variableWidth: true,
         adaptiveHeight: true,
         responsive: [
@@ -37,12 +38,25 @@ $(document).ready(function() {
         ]
     });
 
+    $('.advantage').slick({
+        centerPadding: '60px',
+        slidesToShow: 3,
+        draggable: false,   
+    })
+
     $('.reviews').slick({
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
         slidesToScroll: 2,
+        draggable: false,
         variableWidth: true,
+        dots: true,
+        dotsClass: 'custom_paging',
+        customPaging: function (slider, i) {
+            console.log(slider);
+            return '<span>' +  (i + 1) + '</span>' + '/' + slider.slideCount;
+        },
         responsive: [
             {
                 breakpoint: 768,
@@ -70,6 +84,7 @@ $(document).ready(function() {
         centerPadding: '60px',
         slidesToShow: 3,
         slidesToScroll: 2,
+        draggable: false,
         variableWidth: true,
         responsive: [
             {

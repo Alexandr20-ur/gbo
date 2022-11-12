@@ -233,19 +233,24 @@ body {
 
 .gaika2 {
     width: 74px;
-    left: -40px;
-    top: 333px;
+    left: -54px;
+    top: 411px;
 }
 
 /* line 48, ../sass/style.scss */
 
 .gaika3 {
     width: 97px;
-    bottom: -7px;
+    top: -60px;
     left: 13px;
     z-index: 7;
 }
 
+@media (max-width: 1200px) {
+    .gaika3 {
+        left: -88px;
+    }
+}
 /* line 54, ../sass/style.scss */
 
 .gaika4 {
@@ -558,19 +563,21 @@ h3 span {
     height: 60px;
     border: 2px solid #5599EE;
 }
-
-/*5599EE
-.btn1:hover, .btn1:focus, .btn1:active {
-  color: #fff;
-  text-decoration: none;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
-  transform: translate(0px, -3px);
-  -webkit-transform: translate(0px, -3px);
-  -moz-transform: translate(0px, -3px);
-  -o-transform: translate(0px, -3px);
-  -ms-transform: translate(0px, -3px);
+.btn1.sell {
+    position: relative;
 }
-*/
+.btn1.sell:hover::before {
+    content: '';
+    background-image: url('/img/fire.png');
+    position: absolute;
+    top: -30px;
+    left: 83%;
+    max-width: 42px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+}
 
 /* line 272, ../sass/style.scss */
 

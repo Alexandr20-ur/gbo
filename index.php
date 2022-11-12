@@ -15,18 +15,12 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="//atuin.ru/demo/ui-slider/jquery-ui.css">
-    <!-- <link rel="stylesheet" href="css/jquery.parallax.css"> -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script type="text/javascript">
         (window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-223297-4SJdd';
-
     </script>
-    <!--[if IE]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -69,7 +63,7 @@
                 <br><br>
                 <div class="row row-cols-2 btn-all">
                     <a class="btn1" href="#small-dialog2">Узнайте как</a>
-                    <a class="btn1" onclick="yaCounter44749336.reachGoal('click-button-sales');" href="https://vk.cc/7W4giW" target="_blank">Наши акции</a>
+                    <a class="btn1 sell" onclick="yaCounter44749336.reachGoal('click-button-sales');" href="https://vk.cc/7W4giW" target="_blank">Наши акции</a>
                 </div><br>
                 <a class="header_link" onclick="yaCounter44749336.reachGoal('click-component-store');" href="https://vk.com/market-81485178" target="_blank">Магазин комплектующих</a>
             </div>
@@ -77,6 +71,7 @@
                 <img src="img/gas_station.png" alt="">
             </div>
         </div>
+        <img src="img/g2.png" alt="" class="gaika gaika2">
     </div>
 </section>
 
@@ -84,10 +79,11 @@
         <div class="block1-back2">
             <div class="block1-back">
                 <div class="container cont_1">
+                <img src="img/g3.png" alt="" class="gaika gaika3">
                     <div class="row block_main">
                     <h1>Преимущества ГБО</h1>
                     </div>
-                    <div class="row progruz">
+                    <div class="row progruz advantage">
                         <div class="col-sm-4">
                             <div class="trig-wrap">
                                 <img src="img/img2.png">
@@ -100,6 +96,13 @@
                                 <img src="img/img3.png" alt="">
                                 <div class="trig-title">Экономичнее</div>
                                 <div class="trig-txt">Низкая стоимость топлива по сравнению с бензином, поэтому, установив газобаллонное оборудование, можно быстро окупить его и начать экономить деньги</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="trig-wrap">
+                                <img src="img/img1.png" alt="">
+                                <div class="trig-title">Преимущество на дальних расстояниях</div>
+                                <div class="trig-txt">ГБО позволяет увеличить запас топлива при передвижении на дальних расстояниях</div>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -144,7 +147,7 @@
     </div>
 </section>
 
-<section class="block-3">
+<section class="block-3" id="suppliers">
     <div class="container-fluid">
         <div class="row main_3">
             <div class="col-2">
@@ -179,7 +182,7 @@
 
 
 
-<section class="block-4">
+<section class="block-4" id="our-advantages">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -261,7 +264,7 @@
 </section> 
 
 
-<section class="block-5">
+<section class="block-5" id="installation">
     <div class="container-fluid">
         <div class="row">
             <h1>Газодизель</h1>
@@ -309,7 +312,7 @@
     </div>
 </section>
 
-<section class="block-7">
+<section class="block-7" id="gazprom">
     <div class="container-fluid">
         <div class="row vektor">
         <img src="img/vektor1.png" alt="">
@@ -348,7 +351,7 @@
     </div>
 </section>
 
-<section class="block-8">
+<section class="block-8" id="examples">
     <div class="container">
         <div class="row">
             <h1>Наши работы</h1>
@@ -395,7 +398,7 @@
 </section>
 
 
-<section class="block-9">
+<section class="block-9" id="reviews">
     <div class="block1-back2">
         <div class="block1-back">
             <div class="container cont_1">
@@ -406,45 +409,60 @@
                     <div class="slider_reviews">
                         <div class="row face">
                             <div class="col-2">
-                                <img src="/img/face.png" alt="">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/43978/9Y45w87jBfAHBlbDc5Qz95edA-1/islands-75" alt="">
                             </div>
                             <div class="col">
-                                <h3>Артем Даниленко</h3>
-                                <img src="img/rate.png" alt="">
-                                <p>12 авг. 2021 г.</p>
+                                <h3>Всеволод</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>3.09.2022</p>
                             </div>
                         </div>
                         <div class="row">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim                             
-                            </p>
+                            Заехал в данный сервис, сделали диагностику, которая показала необходимость замены газового редуктора. Стоимость замены, включая стоимость редуктора оказалась 10000 рублей. +500 рублей диагностика. Я считаю, что это всё же дорого! В итоге поменял в Казани за 5500                            </p>
                         </div>
                     </div>
                     <div class="slider_reviews">
                         <div class="row face">
                             <div class="col-2">
-                                <img src="/img/face.png" alt="">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/29310/enc-1b53dff490b1a88d58d4299fe3515fcdaeac251f2912cbd23ea1222d70444b82/islands-75" alt="">
                             </div>
                             <div class="col">
-                                <h3>Артем Даниленко</h3>
-                                <img src="img/rate.png" alt="">
-                                <p>12 авг. 2021 г.</p>
+                                <h3>Кристина Квасова</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>09.11.2022</p>
                             </div>
                         </div>
                         <div class="row">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim                             
-                            </p>
+                            Установила. Что могу сказать после: полноценная презентация/консультация по установке, качественная установка оборудования, работа проводилась в течении одного дня                            </p>
                         </div>
                     </div>
                     <div class="slider_reviews">
                         <div class="row face">
                             <div class="col-2">
-                                <img src="/img/face.png" alt="">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/39727/enc-4a2e9ac4aabaa677210096f4b0d08bf2b9b856eb5e024c4c442e3d96e28b75c9/islands-75" alt="">
                             </div>
                             <div class="col">
                                 <h3>Polina K.</h3>
-                                <img src="img/rate.png" alt="">
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
                                 <p>12 авг. 2021 г.</p>
                             </div>
                         </div>
@@ -457,19 +475,95 @@
                     <div class="slider_reviews">
                         <div class="row face">
                             <div class="col-2">
-                                <img src="/img/face.png" alt="">
+                                <img src="https://avatars.mds.yandex.net/get-yapic//islands-75" alt="">
                             </div>
                             <div class="col">
-                                <h3>Артем Даниленко</h3>
-                                <img src="img/rate.png" alt="">
-                                <p>12 авг. 2021 г.</p>
+                                <h3>Полина Сидорова</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>23.08.2022</p>
                             </div>
                         </div>
                         <div class="row">
                             <p>
-                                Устанавливали с мужем газовое оборудование в "GMSistem" очень довольны! Ребята большие молодцы! Внимательное отношение, прекрасные специалисты, комфортная атмосфера. Самые привлекательные цены на оборудование, поняли это обзвонив несколько фирм. Обрадовало, что есть такие сервисы. Рекомендую    
+                            Грамотные СПЕЦИАЛИСТЫ знающие своё дело, рекомендую. 
+                            Ставили в данном сервисе гбо и очень довольны! Все работает исправно. Очень приятно, что в подарок получили карту Газпрома!               
                             </p>
                         </div>
+                    </div>
+                    <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/44850/lv6TZgAbfijXyeTOhqXJiuBaIEU-1/islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Pressler L.</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>23.08.2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Отличный сервис по установке и обслуживанию ГБО! Грамотные специалисты, ищут причину неисправности до тех пор, пока не найдут! Высокая компетентность, адекватность, вежливость - вот главные преимущества, по которым стоит обратиться именно сюда!                            </p>
+                        </div>
+                    </div>
+                    <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/40138/x1Hy2M4RKFfIy5qnus4cUltaGc-1/islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Анна Ш.</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>9.11.2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Всем здоровья! Сегодня была с проблемой запаха в салоне газа.... (машине 16лет) Мастер выявил проблему за пару минут. Устранили быстро!!!! Сделали диагностику и замену магистрали в течении 30минут. Взяли сущие копейки!!!!! СОВЕТУЮ ВСЕМ</p>
+                        </div>
+                    </div>
+                    <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/27232/8FDY0Q5bfXlv92rcmDZ4W3lWFo-1/islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Ромка Ромка</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>9.11.2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Ставил два раза ГБО пропан здесь.
+                            Первый раз на форд фокус, второй на Ларгус в 2020 и 2021 годах соответственно.
+                            Что на Форде, что на Ларгусе два года подряд съездил в Крым на газу (около 6500 туда-сюда).
+                            Оборудование показало себя отлично, никаких поломок и проблем.
+                            </p>
                     </div>
                 </div>
             </div>
@@ -478,7 +572,7 @@
 </section>
 
 
-<section class="block-10">
+<section class="block-10" id="calculator">
     <div class="container">
         <img src="img/g4.png" alt="" class="gaika gaika4">
         <img src="img/g5.png" alt="" class="gaika gaika5">
@@ -680,7 +774,7 @@
         </div>
     </section>
 
-    <section class="block-12">
+    <section class="block-12" id="certificates">
         <div class="container-fluid">
             <div class="row sertificate">
                 <h1>Сертификаты</h1>
@@ -779,20 +873,20 @@
             <div class="col">
                <ul class="list">
                 <li class="list__main">Карты сайта</li>
-                <li class="list_body">Главная</li>  
-                <li class="list_body">Преимущества ГБО</li>
-                <li class="list_body">О нас</li>
-                <li class="list_body">Наши поставщики</li>
-                <li class="list_body">Наши Преимущества</li>
-                <li class="list_body">Установка ГБО на дизель</li>
-                <li class="list_body">Газпром</li>
-                <li class="list_body">Примеры установки ГБО</li>
-                <li class="list_body">Отзывы</li>
-                <li class="list_body">Оналайн-калькулятор</li>
-                <li class="list_body">Вопрос - ответ</li>
-                <li class="list_body">Сертификаты</li>
-                <li class="list_body">Газомоторные системы</li>
-                <li class="list_body">Карта</li>
+                <li class="list_body"><a href="#head">Главная</a></li>  
+                <li class="list_body"><a href="#block1">Преимущества ГБО</a></li>
+                <li class="list_body"><a href="#block-2">О нас</a></li>
+                <li class="list_body"><a href="#suppliers">Наши поставщики</a></li>
+                <li class="list_body"><a href="#our-advantages">Наши Преимущества</a></li>
+                <li class="list_body"><a href="#installation">Установка ГБО на дизель</a></li>
+                <li class="list_body"><a href="#gazprom">Газпром</a></li>
+                <li class="list_body"><a href="#examples">Примеры установки ГБО</a></li>
+                <li class="list_body"><a href="#reviews">Отзывы</a></li>
+                <li class="list_body"><a href="#calculator">Онлайн-калькулятор</a></li>
+                <li class="list_body"><a href="#block6">Вопрос - ответ</a></li>
+                <li class="list_body"><a href="#certificates">Сертификаты</a></li>
+                <li class="list_body"><a href="#block3">Газомоторные системы</a></li>
+                <li class="list_body"><a href="#block4">Карта</a></li>
                </ul>
             </div>
             <div class="col">
