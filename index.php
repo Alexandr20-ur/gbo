@@ -134,8 +134,8 @@
         <img src="img/Group 11.png" alt="">
         </div>
         <div class="col-6 el-4">
-        <h3>Наша компания основана в 2016 году. Сервисный центр "GMSistem газомоторные системы" уже более 6 лет решает важную задачу по переводу на газообразные топлива автотранспортных средств, устанавливает и обслуживает газоболонное оборудование автомобилей. При установке оборудования в нашем сервисном центре Вы получаете дополнительные льготы и привилегии по действующим программам
-            ООО "Газпром газомоторное топливо" и программе субсидирования от Государства Накопленный опыт и высокая квалификация специалистов, позволяют нам устанавливать оборудование и решать сложные вопросы, возникающие при эксплуатации ГБО.
+        <h3>Наша компания основана в 2016 году. Сервисный центр "GMSistem газомоторные системы" уже более 6 лет решает важную задачу по переводу на газообразные топлива автотранспортных средств, устанавливает и обслуживает газоболонное оборудование автомобилей. При установке оборудования в нашем сервисном центре, Вы получаете дополнительные льготы и привилегии по действующим программам
+            ООО "Газпром газомоторное топливо" и программе субсидирования от Государства. Накопленный опыт и высокая квалификация специалистов, позволяют нам устанавливать оборудование и решать сложные вопросы, возникающие при эксплуатации ГБО.
         </h3>
         </div>
     </div>
@@ -154,10 +154,10 @@
                 <img class="Elipse" src="/img/Ellipse 4.png" alt="">
             </div>
             <div class="col-9">
-                <h1>Наши поставщики</h1>
+                <h1>Наши партнеры</h1>
             </div>
         </div>
-        <div class="row row-cols-2 main_3_1">
+        <div class="row row-cols-2 main_3_1 partners">
             <div class="col col-lg-2">
                 <img class="save-logo" src="img/4save-logo.png" alt="">
             </div>
@@ -169,6 +169,18 @@
             </div>
             <div class="col col-lg-2">
                 <img src="img/lovato.png" alt="">
+            </div>
+            <div class="col col-lg-2">
+                <img src="img/rosneft.jpeg" alt="">
+            </div>
+            <div class="col col-lg-2">
+                <img src="img/belkamneft.jpeg" alt="">
+            </div>
+            <div class="col col-lg-2">
+                <img src="img/GAZPROM1.jpeg" alt="">
+            </div>
+            <div class="col col-lg-2">
+                <img src="img/ministerstvo.jpeg" alt="">
             </div>
         </div>
         <div class="row main_3_2">
@@ -332,16 +344,18 @@
             <div class="col">
                 <div class="row">
                     <img class="g1" src="img/gazprom1.png" alt="">
-                    <p>EcoGas – экономия для Вас!</p>
+                    <p>Переведите свой автомобиль на компримированный природный газ (КПГ), и ООО &laquo; Газпром газомоторное топливо &raquo; возместит Вам часть затрат на установку газобалонного оборудования (ГБО), предоставив топливную карту EcoGas с лимитом до 70000 Экобонусов. </p>
                 </div>
                 <div class="row">
                     <img class="g2" src="img/gazprom2.png" alt="">
-                    <p>Установите ГБО метан и получите в подарок топливную карту EcoGas от 25000 руб. Акция действует для физических и юридических лиц.</p>
+                    <p>Дополнительная выгода. Переведите свой автомобиль на компримированный природный газ (КПГ)</p>
                 </div>
                 <div class="row">
                     <img class="g3" src="img/gazprom3.png" alt="">
-                    <p>Акция от Газпром для юридических лиц:
-                        Установите ГБО метан, разместите на бортах автомобиля рекламу сроком на 1 год и получите компенсацию от 65000 руб. Акция действует для юридических лиц с собственным автопарком.</p>
+                    <p>ООО &laquo; Газпром газомоторное топливо &raquo; возместит Вам часть затрат на установку газобалонного оборудования (ГБО) единовременной выплатой до 53 200 рублей.</p>
+                </div>
+                <div class="row">
+                    <p>Есть многие другие акции.</p>
                 </div>
             </div>
         </div>
@@ -358,36 +372,99 @@
         </div>
         <div class="slider single-item">
             <div class="slider-element">
-                <div class="row"><img src="img/foto_work.png" alt=""></div>
+                <div class="row"><img src="img/Работы/SXOYkMOoDWU.jpg" alt=""></div>
                 <div class="row content"><p>
-                    Автомобиль Chevrolet Cruze 2014 1.6 109 л.с
+                    Автомобиль LADA GRANTA
                 </p></div>
                 <div class="row"><p>
                     от 32 000 руб.
                 </p></div>
             </div>
             <div class="slider-element">
-                <div class="row"><img src="img/foto_work.png" alt=""></div>
+                <div class="row"><img src="img/Работы/v51y_VhsXtQ.jpg" alt=""></div>
                 <div class="row content"><p>
-                    Автомобиль Chevrolet Cruze 2014 1.6 109 л.с
+                    Автомобиль HUNDAI SOLARIS
                 </p></div>
                 <div class="row"><p>
                     от 32 000 руб.
                 </p></div>
             </div>
             <div class="slider-element">
-                <div class="row"><img src="img/foto_work.png" alt=""></div>
+                <div class="row"><img src="img/Работы/XrrKBbXSwH8.jpg" alt=""></div>
                 <div class="row content"><p>
-                    Автомобиль Chevrolet Cruze 2014 1.6 109 л.с
+                    Автомобиль LADA GRANTA
                 </p></div>
                 <div class="row"><p>
                     от 32 000 руб.
                 </p></div>
             </div>
             <div class="slider-element">
-                <div class="row"><img src="img/foto_work.png" alt=""></div>
+                <div class="row"><img src="img/Работы/2PXhGU5X4ow.jpg" alt=""></div>
                 <div class="row content"><p>
-                    Автомобиль Chevrolet Cruze 2014 1.6 109 л.с
+                    Автомобиль UAZ Pickup
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/6ULyrqowzgo.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль FAW V5
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/LTHaBiFogtE.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль ГАЗель
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/HVhYIKIMU2Q.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль KIA RIO
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/qDJZ6halFIo.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль HYUNDAI SOLARIS
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/SOOUKtJkVaY.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль CHEVROLET CRUZE
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/JhKBy3WcdeI.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль CHEVROLET NIVA
+                </p></div>
+                <div class="row"><p>
+                    от 32 000 руб.
+                </p></div>
+            </div>
+            <div class="slider-element">
+                <div class="row"><img src="img/Работы/mTObYdEgias.jpg" alt=""></div>
+                <div class="row content"><p>
+                    Автомобиль TOYOTA LAND CRUISER 200
                 </p></div>
                 <div class="row"><p>
                     от 32 000 руб.
@@ -566,6 +643,112 @@
                             </p>
                     </div>
                 </div>
+                <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/28439/CJP7sl0bEuYOBPfLPmg779UjyI-1/islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Федор Лекомцев</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>18.11.2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Ставил гбо на машину год назад , по началу все ок поставили проблем не было по оборудованию. После прохождения ТО почувствовал что пахнет газом , открываю капот а шланг на редукторе вот вот и отвалится хомут просто висит на самом шланге. Через какое то время решил продать машину и снять гбо, оставил машину. Прихожу говорят у вас шланг топливный перетёрло и бензин течёт.
+                            </p>
+                    </div>
+                </div>
+                <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic//islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Александра С.</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>9.11.2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Понравилось обслуживание, всем рекомендую!
+                            </p>
+                    </div>
+                </div>
+                <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic//islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Валя Ч.</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>9.11.2022</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Ребята хорошие специалисты. Всё делают быстро и качественно. Метан установка за один день. Дорабатывают до каждой мелочи. Авто едет бесподобно. Спасибо большое коллективу GMSistem!
+                            </p>
+                    </div>
+                </div>
+                <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/27503/Q7aDmCpGbzdeIC2iOsY0oqg98uY-1/islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>Анастасия Иванова</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>6.09.2021</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Грамотные специалисты, хорошее отношение к клиенту. Рекомендую! Спасибо!
+                            </p>
+                    </div>
+                </div>
+                <div class="slider_reviews">
+                        <div class="row face">
+                            <div class="col-2">
+                                <img src="https://avatars.mds.yandex.net/get-yapic/37154/ttEJQ8GeDlhVXXDV91MyxZBSrE-1/islands-75" alt="">
+                            </div>
+                            <div class="col">
+                                <h3>ХАРОН</h3>
+                                <div class="rate">
+                                    <img src="/img/Star1.png" alt="">
+                                </div>
+                                <p>6.03.2021</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>
+                            Ставили год назад мозги,решил сделать диагностику гбо,итог....из пяти сервисов гбо,ни один не смог подключится к мозгам....тупо делают привязку к себе!!! В итоге чтоб сделать диагностику,редуктор почистить,или форсунки настроить,я должен за 700 км к ним ехать                            </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -583,20 +766,11 @@
                     <div class="row metan-propan">
                         <h3><span>Метан</span></h3>
                         <label class="switch">
-                            <input type="checkbox" name="gaz">
+                            <input type="checkbox" name="gaz" id="gazz">
                             <span class="slider round"></span>
                         </label>
                         <h3>Пропан</h3>
                     </div>
-                </div>
-                <div class="col">
-                <div class="row gazodizel">
-                <label class="checkbox">
-                    <input type="checkbox" name="gazodizel">
-                    <span class="checkmark"></span>
-                </label>
-                    <h3>Газодизель</h3>
-                </div>
                 </div>
             </div>
             <div class="row pashod">
@@ -608,11 +782,11 @@
                 </div>
                 <div class="col">
                     <p>Цена бензина, <span>руб.</span></p>
-                    <input type="text" placeholder="Введите цену" class="benz_inp my-inp">
+                    <input type="text" placeholder="Введите цену" class="benz_inp my-inp" value="43.65" id="price_benz">
                 </div>
                 <div class="col">
-                    <p>Цена Метана, <span>руб.</span></p>
-                    <input type="text" placeholder="Введите цену" class="gaz_inp my-inp">
+                    <p class="gas1">Цена Метана, <span>руб.</span></p>
+                    <input type="text" placeholder="Введите цену" class="gaz_inp my-inp" value="17.10">
                 </div>
             </div>
             <div class="row probeg">
@@ -625,7 +799,7 @@
                 </div>
                 <div class="col price">
                     <p>Цена ГБО, <span>руб.</span></p>
-                    <input class="price_gbo" type="text" placeholder="Введите цену">
+                    <input class="price_gbo" type="text" placeholder="Введите цену" value="32000">
                 </div>
             </div>
         </form>
@@ -656,7 +830,7 @@
                             <input type="hidden" id="rashod" name="rashod" value="10">
                             <input type="hidden" id="probeg" name="probeg" value="2500">
                             <input type="hidden" id="benz" name="benz" value="42">
-                            <input type="hidden" id="gaz" name="gaz" value="18">
+                            <input type="hidden" id="gaz" name="gaz" value="">
 
                             <button class="pop-btn">Заказать звонок</button>
                         </form>
@@ -794,6 +968,9 @@
                         <div class="slider__items">
                             <img src="img/Документ26.jpg" alt="">
                         </div>
+                        <div class="slider__items">
+                            <img src="img/Документ27.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -832,7 +1009,7 @@
         <div class="adres-b progruz">
             <p>Мы находимся по адресу:</p>
             <div class="adress">г. Ижевск, проезд Дзержинского, 3Б</div>
-            <p class="rezhim">Режим работы: ежедневно с 8-00 до 20-00</p>
+            <p class="rezhim">Режим работы: ежедневно с 8-00 до 17-00</p>
             <p>Также ищите нас:</p>
             <div class="social">
                 <a class="vk" href="https://vk.com/gmsistem" target="_blank">Вконтакте</a>

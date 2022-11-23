@@ -287,7 +287,6 @@
   }
   .progruz .trig-wrap img {
     position: relative;
-    right: 30px;
   }
 }
 @media (max-width: 576px) {
@@ -301,6 +300,32 @@
 }
 .block-3 {
   margin-bottom: 200px;
+}
+.block-3 .slick-slider .slick-prev {
+  background-image: url('/img/left.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  z-index: 6;
+  opacity: 0.5;
+}
+.block-3 .slick-slider .slick-prev::before {
+  content: none;
+}
+.block-3 .slick-slider .slick-next {
+  background-image: url('/img/right.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  z-index: 6;
+  opacity: 0.5;
+}
+.block-3 .slick-slider .slick-next::before {
+  content: none;
+}
+.block-3 .slick-slider .slick-slide {
+  width: 200px;
+  height: 150px;
 }
 .block-3 .container-fluid {
   width: 90%;
@@ -330,15 +355,18 @@
 }
 .block-3 .container-fluid .main_3_1 {
   justify-content: space-between;
+  align-items: center;
 }
-.block-3 .container-fluid .main_3_1 img {
-  width: 100%;
+.block-3 .container-fluid .main_3_1 .draggable {
+  width: 90%;
 }
 .block-3 .container-fluid .main_3_1 .col {
+  display: flex;
+  justify-content: center;
   margin-left: 50px;
 }
-.block-3 .container-fluid .main_3_1 .col .save-logo {
-  margin-top: 20%;
+.block-3 .container-fluid .main_3_1 .col img {
+  width: 100%;
 }
 .block-3 .container-fluid .main_3_2 {
   height: 150px;
@@ -370,6 +398,10 @@
     margin-bottom: 30px;
     height: max-content;
   }
+  .block-3 .slick-slider .slick-slide {
+    width: 300px;
+    height: 200px;
+  }
   .block-3 .container-fluid {
     height: max-content;
   }
@@ -379,9 +411,7 @@
   .block-3 .container-fluid .main_3_1 {
     display: flex;
     flex-direction: column;
-  }
-  .block-3 .container-fluid .main_3_1 img {
-    margin-left: 20%;
+    margin-top: 70px;
   }
 }
 @media (max-width: 467px) {
@@ -888,6 +918,9 @@
   max-width: max-content;
   margin: 0 auto 85px;
 }
+.block-8 .container .slider .slick-list {
+  height: 400px;
+}
 .block-8 .container .slider .slick-prev {
   background-image: url('/img/left.png');
   width: 100px;
@@ -911,7 +944,9 @@
 .block-8 .container .slider .slider-element {
   max-width: 295px;
   max-height: 424px;
+  height: 367px;
   padding-bottom: 10px;
+  margin-bottom: 30px;
   box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.25);
   border-radius: 34px;
   margin: 0px 30px;
@@ -921,10 +956,10 @@
 }
 .block-8 .container .slider .slider-element .row img {
   position: relative;
-  left: -15px;
-  bottom: 10px;
-  max-width: 200%;
-  width: 110%;
+  width: 295px;
+  height: 265px;
+  width: 100%;
+  border-radius: 43px;
 }
 .block-8 .container .slider .slider-element .row p {
   max-width: 200px;
@@ -1121,7 +1156,7 @@
   transition: 0.4s;
 }
 .block-10 .container input:checked + .slider {
-  background-color: white;
+  background-color: #fffdfd;
 }
 .block-10 .container input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;

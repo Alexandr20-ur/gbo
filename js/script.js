@@ -3,10 +3,10 @@ $(document).ready(function() {
     $('.slider').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+        slidesToShow: 4,
         draggable: false,
         variableWidth: true,
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         responsive: [
         {
             breakpoint: 991,
@@ -38,10 +38,84 @@ $(document).ready(function() {
         ]
     });
 
+    $('.partners').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        // draggable: false,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                arrows: false,
+                centerMode: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 982,
+                settings: {
+                arrows: false,
+                centerMode: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                arrows: false,
+                centerPadding: '60px',
+                centerMode: false,
+                slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 1,
+                }
+            }
+        ]
+    })
+
     $('.advantage').slick({
         centerPadding: '60px',
         slidesToShow: 3,
         draggable: false,   
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 1
+                }
+            }
+        ]
     })
 
     $('.reviews').slick({
@@ -54,7 +128,7 @@ $(document).ready(function() {
         dots: true,
         dotsClass: 'custom_paging',
         customPaging: function (slider, i) {
-            console.log(slider);
+            // console.log(slider);
             return '<span>' +  (i + 1) + '</span>' + '/' + slider.slideCount;
         },
         responsive: [
@@ -156,6 +230,7 @@ $(document).ready(function() {
 		},
         change: function(event, ui) {
             rashod_hidden.val(ui.value)
+            calc();
         }
 	});
 
@@ -175,4 +250,35 @@ $(document).ready(function() {
         $("#calc3").text(Math.floor(calc3)); //Окупаемость 
         $("#calc1").text(Math.ceil(calc1)); //Экономия в месяц
     }
+
+    //checkbox Метан/Пропан
+    let checkbox = document.querySelector('#gazz');
+    let text = document.getElementsByClassName('gas1');
+    let input = document.getElementsByClassName('gaz_inp');
+    let checked = '';
+    checkbox.onchange = function() {
+        checked = checkbox.checked;
+
+        text[0].innerHTML = (checked === true)
+            ? 'Цена Пропана, <span>руб.</span>'
+            : 'Цена Метана, <span>руб.</span>';
+
+        input[0].value = (checked == true)
+            ? 24
+            : 17.10;
+        calc();
+    };
+
+    //input Цена бензина
+    let price = document.getElementById('price_benz');
+    price.onchange = function() {
+        calc()
+    }
+    
+    //input Цена ГБО
+    let priceGBO = document.querySelector('.price_gbo');
+    priceGBO.onchange = function() {
+        calc()
+    }
+
 }); 

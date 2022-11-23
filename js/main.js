@@ -5,47 +5,47 @@ $( document ).ready(function() {
     $(".proiz").removeClass("active_pr");
     $("#proiz"+proizN).addClass("active_pr");
     
-    jQuery('.parallax-layer').parallax({
-        mouseport: jQuery("#head"),
-        xparallax: '26px',    
-        yparallax: '26px',
-        yorigin: '0%'
-    });
+    // jQuery('.parallax-layer').parallax({
+    //     mouseport: jQuery("#head"),
+    //     xparallax: '26px',    
+    //     yparallax: '26px',
+    //     yorigin: '0%'
+    // });
 });
 
-$(document).ready(function() {
-	$('.popup-with-zoom-anim').magnificPopup({
-		type: 'inline',
+// $(document).ready(function() {
+// 	$('.popup-with-zoom-anim').magnificPopup({
+// 		type: 'inline',
 
-		fixedContentPos: false,
-		fixedBgPos: true,
+// 		fixedContentPos: false,
+// 		fixedBgPos: true,
 
-		overflowY: 'auto',
+// 		overflowY: 'auto',
 
-		closeBtnInside: true,
-		preloader: false,
+// 		closeBtnInside: true,
+// 		preloader: false,
 		
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-zoom-in'
-	});
+// 		midClick: true,
+// 		removalDelay: 300,
+// 		mainClass: 'my-mfp-zoom-in'
+// 	});
 
-	$('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
+// 	$('.popup-with-move-anim').magnificPopup({
+// 		type: 'inline',
 
-		fixedContentPos: false,
-		fixedBgPos: true,
+// 		fixedContentPos: false,
+// 		fixedBgPos: true,
 
-		overflowY: 'auto',
+// 		overflowY: 'auto',
 
-		closeBtnInside: true,
-		preloader: false,
+// 		closeBtnInside: true,
+// 		preloader: false,
 		
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-	});
-});
+// 		midClick: true,
+// 		removalDelay: 300,
+// 		mainClass: 'my-mfp-slide-bottom'
+// 	});
+// });
 
 
 
@@ -86,21 +86,24 @@ $(".my-inp").change(function(){
 
 //Тут ведется подсчет
 function calc() {
+    // let gbo = '';
+    // let ras = '';
+    // let prob = '';
     if(window.matchMedia('(max-width: 992px)').matches) {
         gbo = $(".price_gbo").val();
         if(gbo == null) {
             gbo = 29000;
         }
     }
-    calc1 = gbo / (ras/100 * prob * (cb - cg));
-    calc2 = ras * (cb - cg);
-    calc3 = gbo / (ras/100 * (cb - cg));
+    // calc1 = gbo / (ras/100 * prob * (cb - cg));
+    // calc2 = ras * (cb - cg);
+    // calc3 = gbo / (ras/100 * (cb - cg));
     
-    calc4 = ras/100 * prob * (cb - cg)
-    $("#calc1").text(Math.floor(calc1));
-    $("#calc2").text(Math.ceil(calc2));
-    $("#calc3").text(Math.floor(calc3));
-    $("#calc4").text(Math.ceil(calc4));
+    // calc4 = ras/100 * prob * (cb - cg)
+    // $("#calc1").text(Math.floor(calc1));
+    // $("#calc2").text(Math.ceil(calc2));
+    // $("#calc3").text(Math.floor(calc3));
+    // $("#calc4").text(Math.ceil(calc4));
     
     dannie();
 };
@@ -126,9 +129,9 @@ function nameProiz () {
     $(".okup-name").text(nameP);
 };
 
-$(function(){
-  $(".tel").mask("+7(999) 999-9999");
-});
+// $(function(){
+//   $(".tel").mask("+7(999) 999-9999");
+// });
 
 
 function dannie () {
