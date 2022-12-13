@@ -90,10 +90,10 @@ $(document).ready(function() {
             {
                 breakpoint: 1399,
                 settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1,
+                arrows: true,
+                draggable: false,
+                centerPadding: '60px',
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 }
             },
@@ -160,6 +160,7 @@ $(document).ready(function() {
         slidesToScroll: 2,
         draggable: false,
         variableWidth: true,
+        infinite: true,
         responsive: [
             {
                 breakpoint: 1399,

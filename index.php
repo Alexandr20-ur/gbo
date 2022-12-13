@@ -107,6 +107,20 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="trig-wrap">
+                                <img src="img/img2.png">
+                                <div class="trig-title">Экологичнее</div>
+                                <div class="trig-txt">Экологичность - транспортные средства, работающие на газе, выделяют гораздо меньше вредных веществ в атмосферу</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="trig-wrap">
+                                <img src="img/img3.png" alt="">
+                                <div class="trig-title">Экономичнее</div>
+                                <div class="trig-txt">Низкая стоимость топлива по сравнению с бензином, поэтому, установив газобаллонное оборудование, можно быстро окупить его и начать экономить деньги</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="trig-wrap">
                                 <img src="img/img1.png" alt="">
                                 <div class="trig-title">Преимущество на дальних расстояниях</div>
                                 <div class="trig-txt">ГБО позволяет увеличить запас топлива при передвижении на дальних расстояниях</div>
@@ -646,25 +660,6 @@
                 <div class="slider_reviews">
                         <div class="row face">
                             <div class="col-2">
-                                <img src="https://avatars.mds.yandex.net/get-yapic/28439/CJP7sl0bEuYOBPfLPmg779UjyI-1/islands-75" alt="">
-                            </div>
-                            <div class="col">
-                                <h3>Федор Лекомцев</h3>
-                                <div class="rate">
-                                    <img src="/img/Star1.png" alt="">
-                                </div>
-                                <p>18.11.2022</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p>
-                            Ставил гбо на машину год назад , по началу все ок поставили проблем не было по оборудованию. После прохождения ТО почувствовал что пахнет газом , открываю капот а шланг на редукторе вот вот и отвалится хомут просто висит на самом шланге. Через какое то время решил продать машину и снять гбо, оставил машину. Прихожу говорят у вас шланг топливный перетёрло и бензин течёт.
-                            </p>
-                    </div>
-                </div>
-                <div class="slider_reviews">
-                        <div class="row face">
-                            <div class="col-2">
                                 <img src="https://avatars.mds.yandex.net/get-yapic//islands-75" alt="">
                             </div>
                             <div class="col">
@@ -729,24 +724,6 @@
                             <p>
                             Грамотные специалисты, хорошее отношение к клиенту. Рекомендую! Спасибо!
                             </p>
-                    </div>
-                </div>
-                <div class="slider_reviews">
-                        <div class="row face">
-                            <div class="col-2">
-                                <img src="https://avatars.mds.yandex.net/get-yapic/37154/ttEJQ8GeDlhVXXDV91MyxZBSrE-1/islands-75" alt="">
-                            </div>
-                            <div class="col">
-                                <h3>ХАРОН</h3>
-                                <div class="rate">
-                                    <img src="/img/Star1.png" alt="">
-                                </div>
-                                <p>6.03.2021</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p>
-                            Ставили год назад мозги,решил сделать диагностику гбо,итог....из пяти сервисов гбо,ни один не смог подключится к мозгам....тупо делают привязку к себе!!! В итоге чтоб сделать диагностику,редуктор почистить,или форсунки настроить,я должен за 700 км к ним ехать                            </p>
                     </div>
                 </div>
             </div>
@@ -957,19 +934,19 @@
                 <div class="row content">
                     <div class="row documents">
                         <div class="slider__items">
-                            <img src="img/Документ23.jpg" alt="">
+                            <img src="img/сертификаты/Сертификат RU.MCK.036.060РУю16144 от 2022-2025г (1)/Сертификат RU.MCK.036.060РУю16144 от 2022-2025г (1)-1.jpg" alt="">
                         </div>
                         <div class="slider__items">
-                            <img src="img/Документ24.jpg" alt="">
+                            <img src="img/сертификаты/Сертификат RU.MCK.036.060РУю16144 от 2022-2025г (1)/Сертификат RU.MCK.036.060РУю16144 от 2022-2025г (1)-2.jpg" alt="">
                         </div>
                         <div class="slider__items">
-                            <img src="img/Документ25.jpg" alt="">
+                            <img src="img/сертификаты/сертификаты/сертификаты-1.jpg" alt="">
                         </div>
                         <div class="slider__items">
-                            <img src="img/Документ26.jpg" alt="">
+                            <img src="img/сертификаты/сертификаты/сертификаты-2.jpg" alt="">
                         </div>
                         <div class="slider__items">
-                            <img src="img/Документ27.jpg" alt="">
+                            <img src="img/сертификаты/сертификаты/сертификаты-2.jpg" alt="">
                         </div>
                     </div>
                 </div>
